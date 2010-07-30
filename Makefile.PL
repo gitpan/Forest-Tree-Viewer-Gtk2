@@ -19,8 +19,11 @@ my %WriteMakefileArgs = (
   'EXE_FILES' => [],
   'LICENSE' => 'perl',
   'NAME' => 'Forest::Tree::Viewer::Gtk2',
-  'PREREQ_PM' => {},
-  'VERSION' => '0.01',
+  'PREREQ_PM' => {
+    'Gtk2' => '1.222',
+    'Moose' => '1.08'
+  },
+  'VERSION' => '0.02',
   'test' => {
     'TESTS' => 't/*.t'
   }
