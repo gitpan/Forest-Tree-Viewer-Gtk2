@@ -21,9 +21,10 @@ my %WriteMakefileArgs = (
   'NAME' => 'Forest::Tree::Viewer::Gtk2',
   'PREREQ_PM' => {
     'Gtk2' => '1.222',
-    'Moose' => '1.08'
+    'Moose' => '1.08',
+    'Test::use::ok' => '0.02'
   },
-  'VERSION' => '0.02',
+  'VERSION' => '0.03',
   'test' => {
     'TESTS' => 't/*.t'
   }
